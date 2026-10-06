@@ -4,11 +4,15 @@ version = "0.1.0"
 authors = ["depressionlab"]
 description = "Experimentations with FFI."
 edition = "2024"
+license = "EUPL-1.2"
+readme = "README.md"
+repository = "https://github.com/depressionlab/ffi-playground"
+homepage = "https://github.com/depressionlab/ffi-playground"
 
 [dependencies]
 core-foundation = "0.10.1"
-libc = "0.2.189"
-libloading = "0.9.0"
+libc = { version = "0.2.190" }
+libloading = { version = "0.9.0" }
 clap = { version = "4.6.7", features = ["derive", "wrap_help"] }
 clap_complete = { version = "4.6.11" }
 ratatui = { version = "0.30.2" }
